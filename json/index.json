@@ -1,8 +1,8 @@
 {
-  "spider": "https://tv.artdawn.space/custom_spider.jar;md5;8d592f6d2d1434ea5ec8506b56265485",
+  "spider": "https://tv.0081024.xyz/custom_spider.jar;md5;8d592f6d2d1434ea5ec8506b56265485",
   "lives": [
     {
-      "name": "直播ipv6",
+      "name": "中国移动",
       "type": "0",
       "pass": true,
       "url": "https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u",
@@ -10,71 +10,13 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "第三方源|不保存可用",
+      "name": "中国联通及其他",
       "type": "0",
       "pass": true,
-      "url": "http://home.jundie.top:81/Cat/tv/live.txt",
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
+      "url": "https://ghproxy.0081024.xyz/raw.githubusercontent.com/springroc/iptv-api/refs/heads/main/output/result.m3u"
     }
   ],
   "sites": [
-    {
-      "key": "NCat",
-      "name": "\uD83D\uDE3C 网飞猫 | 影视",
-      "type": 3,
-      "api": "csp_NCat",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "TvDy",
-      "name": "\uD83D\uDE07 电影天堂 | 影视",
-      "type": 3,
-      "api": "csp_TvDy",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "W55Movie",
-      "name": "\uD83C\uDF9E\uFE0F 555电影 | 搜索×",
-      "type": 3,
-      "api": "csp_W55Movie",
-      "searchable": 0,
-      "filterable": 1
-    },
-    {
-      "key": "DaGongRen",
-      "name": "\uD83D\uDC77\u200D♂\uFE0F 打工人电影 | 影视",
-      "type": 3,
-      "api": "csp_DaGongRen",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "HkTv",
-      "name": "☁\uFE0F TVB云播 | 影视",
-      "type": 3,
-      "api": "csp_HkTv",
-      "searchable": 0,
-      "filterable": 1
-    },
-    {
-      "key": "JustLive",
-      "name": "\uD83D\uDCFA\uFE0F JustLive | 直播",
-      "type": 3,
-      "api": "csp_JustLive",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "Xb6v",
-      "name": "6\uFE0F⃣ 新版6V | 视频",
-      "type": 3,
-      "api": "csp_Xb6v",
-      "searchable": 1,
-      "filterable": 1
-    },
     {
       "key": "Douban",
       "name": "\uD83E\uDD54 豆瓣 | 仅推荐",
@@ -92,46 +34,12 @@
       "filterable": 1
     },
     {
-      "key": "Ying",
-      "name": "\uD83C\uDF38 樱花动漫 | 动漫",
+      "key": "DaGongRen",
+      "name": "\uD83D\uDC77\u200D♂\uFE0F 打工人电影 | 影视",
       "type": 3,
-      "api": "csp_Ying",
+      "api": "csp_DaGongRen",
       "searchable": 1,
       "filterable": 1
-    },
-    {
-      "key": "Ysj",
-      "name": "\uD83C\uDF0F\uFE0F 异世界动漫 | 动漫",
-      "type": 3,
-      "api": "csp_Ysj",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "FirstAid",
-      "name": "\uD83D\uDCAA 健康 | 视频",
-      "type": 3,
-      "api": "csp_FirstAid",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "nangua",
-      "name": "🎃┃南瓜影视┃🎃",
-      "playerType": 0,
-      "type": 3,
-      "api": "./js/nangua.js",
-      "timeout": 30,
-      "ext": "{\"box\": \"TVBox\", \"danmu\": false}"
-    },
-    {
-      "key": "ikanbot",
-      "name": "🤖┃爱看机器人┃🤖",
-      "playerType": 0,
-      "type": 3,
-      "api": "./js/ikanbot.js",
-      "timeout": 30,
-      "ext": "{\"box\": \"TVBox\", \"danmu\": false}"
     }
   ],
   "parses": [
