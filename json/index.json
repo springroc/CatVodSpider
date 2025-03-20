@@ -2,7 +2,7 @@
   "spider": "https://tv.0081024.xyz/raw.githubusercontent.com/springroc/CatVodSpider/refs/heads/main/jar/custom_spider.jar;md5;8d592f6d2d1434ea5ec8506b56265485",
   "lives": [
     {
-      "name": "中国移动",
+      "name": "中国移动线路",
       "type": "0",
       "pass": true,
       "url": "https://ghproxy.0081024.xyz/raw.githubusercontent.com/springroc/liveTV/refs/heads/main/tv/m3u/ipv6.m3u",
