@@ -5,7 +5,7 @@
       "name": "中国移动",
       "type": "0",
       "pass": true,
-      "url": "https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+      "url": "https://raw.githubusercontent.com/springroc/liveTV/refs/heads/main/tv/m3u/ipv6.m3u",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
